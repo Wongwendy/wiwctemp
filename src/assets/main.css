@@ -1,0 +1,28 @@
+* {
+  background-color: #33ccff;
+}
+
+p {
+  background-color: #fff;
+  height: 30vh;
+}
+
+/* img {
+  /* ctrl * allows you to write personal info  */
+height: 25vh;
+/* vh is video height  */
+transform: rotate(30deg);
+} */
+
+ul {
+  display: block;
+  text-align: center;
+font-size: 40;
+  list-style: times new roman;
+}
+
+.flowers {
+    height: 200px;
+    width: 250px;
+    border-radius: 30%;
+}
