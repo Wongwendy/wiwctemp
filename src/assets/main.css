@@ -7,6 +7,10 @@ p {
   height: 30vh;
 }
 
+body {
+  text-align: center;
+}
+
 /* img {
   /* ctrl * allows you to write personal info  */
 height: 25vh;
@@ -26,3 +30,17 @@ font-size: 40;
     width: 250px;
     border-radius: 30%;
 }
+
+nav {
+  /* keep the navigation fixed to the top of the page */
+ /* position: fixed; */
+ top: 0;
+ width: 100vw;
+
+ /* remaining styles */
+  background-color: ##00bfff;
+  font-size: 2.5em;
+  /* display: flex; */ (this made my top menu not be centered)
+  justify-content: space-between;
+  letter-spacing: 0.05em;
+  }
